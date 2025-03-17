@@ -1,0 +1,30 @@
+{
+  "name": "ravenwood-lorebook",
+  "version": "1.0.0",
+  "description": "Ravenwood lorebooks and RAG documents repository",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node scripts/validate-frontmatter.js",
+    "build": "node scripts/build-bot-packages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperion-001/ravenwood-lorebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperion-001/ravenwood-lorebook/issues"
+  },
+  "homepage": "https://github.com/hyperion-001/ravenwood-lorebook#readme",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "glob": "^11.0.1",
+    "js-yaml": "^4.1.0"
+  }
+}

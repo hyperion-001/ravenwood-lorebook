@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "git.enableSmartCommit": true,
+    "markdown.extension.toc.updateOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "explicit"
+    },
+    "files.associations": {
+      "*.md": "markdown"
+    }
+  }
